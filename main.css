@@ -1,0 +1,50 @@
+* {
+font-family: 'Lato', sans-serif;
+}
+h1, h2 {
+font-family: 'Comfortaa', sans-serif;
+}
+p {
+margin-bottom: 1rem;
+}
+#container {
+margin: 1.5% 3%;
+}
+.nav {
+margin-top: 8px;
+}
+.nav li {
+font-family: 'Comfortaa', sans-serif;
+display: inline;
+margin-right: 30px;
+font-size: 28px;
+}
+.row div {
+margin-top: 1.5%;
+padding: 0 20px 13px;
+/*border-top: 3px solid paleturquoise;*/
+/*border-left: 1px solid orangered;*/
+border: 1px solid paleturquoise;
+}
+.row div h2 {
+color: orangered;
+padding-left: 14px;
+border-left: 4px solid springgreen;
+margin-top: -3px;
+}
+.tekniikat {
+display: inline-block;
+}
+.tekniikat_ul {
+display: inline;
+}
+.tekniikat_ul li {
+display: inline;
+background-color: springgreen;
+padding: 3px 17px;
+margin: 0 2px;
+
+}
+footer {
+margin-top: 1.5%;
+}

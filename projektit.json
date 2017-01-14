@@ -1,0 +1,26 @@
+[
+  {
+    "otsikko": "Website",
+    "kuvaus": "kuvaus",
+    "tekniikat": ["jQuery", "PHP"],
+    "git": "linkki",
+    "app": "linkki",
+    "kuva": "linkki"
+  },
+  {
+    "otsikko": "Spring MVC web application",
+    "kuvaus": "kuvaus",
+    "tekniikat": ["Java", "Spring MVC", "PostgreSQL", "Thymeleaf"],
+    "git": "linkki",
+    "app": "linkki",
+    "kuva": "linkki"
+  },
+  {
+    "otsikko": "Corona SDK mobile game",
+    "kuvaus": "kuvaus",
+    "tekniikat": ["Lua", "Corona SDK"],
+    "git": "linkki",
+    "app": "linkki",
+    "kuva": "linkki"
+  }
+]
