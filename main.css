@@ -43,7 +43,8 @@ display: inline;
 background-color: springgreen;
 padding: 3px 17px;
 margin: 0 2px;
-
+font-family: 'Comfortaa', sans-serif;
+font-weight: bold;
 }
 footer {
 margin-top: 1.5%;

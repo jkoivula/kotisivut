@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="Skeleton-2.0.4/css/normalize.css">
 	<link rel="stylesheet" href="Skeleton-2.0.4/css/skeleton.css">
   <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
-  <link href="https://fonts.googleapis.com/css?family=Comfortaa:light" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Comfortaa:light|Comfortaa:bold" rel="stylesheet">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <link rel="stylesheet" href="main.css">
   <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.6/angular.min.js"></script>
@@ -16,6 +16,7 @@
   </head>
   <body>
   <div id="container" >
+  <!-- Otsikko ja navigointi -->
 	<div class="row" style="border-bottom: 6px solid orangered;"> <!-- Otsikko ja navigointi -->
 		<h1 class="offset-by-one four columns">JONI KOIVULA</h1>
 
@@ -28,7 +29,41 @@
 		</ul>
 	</div>
 
-  <div> <!-- kokonaisuuden taustaväri -->
+  <div class="row"> <!-- Who? Esittely -->
+		<div class="nine columns">
+			<h2>WHO?</h2>
+
+			<p style="width: 50%">
+				I'm 23 years old and currently studying the second year of Business
+				and Information Technology, Bachelor's degree at Häme University of Applied
+				Sciences(HAMK). Before I started my studies at HAMK I had barely written a
+				line of code. Soon after my first few programming courses I found myself extremely
+				interested in programming and knew it's what I wanted to do after I graduate.
+        <br><br>
+				I'm most familiar with object-oriented programming(with C#, Java, Scala) and I am
+				very interested in any full stack and back-end developer opportunities.
+				<br><br>
+				Kerro vielä tarkemmin taustasta(aiemmat opinnot) ja muista mielenkiintoista.
+			</p>
+
+			<p>pärstä kuva(SVGkuva&animaatio, "rikkinäinen kuva")</p>
+
+		</div>
+
+		<div class="three columns">
+			<h2>CONTACT</h2>
+			<p>
+			You can contact me at: joni.a.koivula@gmail.com
+			</p>
+			<h2>LINKS</h2>
+      <ul>
+        <li style="display: inline;"><a href="https://fi.linkedin.com/in/joni-koivula-456a2a113"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a></li>
+        &nbsp&nbsp&nbsp<li style="display: inline;"><a href="https://github.com/jkoivula"><i class="fa fa-github" style="font-size:36px"></i></a></li>
+  		</ul>
+		</div>
+	</div>
+
+  <div> <!-- Projektit kokonaisuuden taustaväri -->
 
     <div class="row" style="padding-top: 45px;">
       <h2 class="offset-by-two three columns">PORTFOLIO</h2>
@@ -46,7 +81,7 @@
   				arin lauseen kuvaus tässä kyseistä projektista,
   				arin lauseen kuvaus tässä kyseistä projektista.
   			</p>
-  			<p class="tekniikat"><b>Tekniikat: </b></p>
+  			<p class="tekniikat"><b>Techniques: </b></p>
         <ul class="tekniikat_ul">
           <li>HTML5</li>
           <li>CSS3</li>
@@ -67,7 +102,7 @@
   				arin lauseen kuvaus tässä kyseistä projektista,
   				arin lauseen kuvaus tässä kyseistä projektista.
   			</p>
-  			<p class="tekniikat"><b>Tekniikat: </b></p>
+  			<p class="tekniikat"><b>Techniques: </b></p>
         <ul class="tekniikat_ul">
           <li>Java</li>
           <li>Spring MVC</li>
@@ -87,55 +122,19 @@
   				arin lauseen kuvaus tässä kyseistä projektista,
   				arin lauseen kuvaus tässä kyseistä projektista.
   			</p>
-        <p class="tekniikat"><b>Tekniikat: </b></p>
+        <p class="tekniikat"><b>Techniques: </b></p>
         <ul class="tekniikat_ul">
           <li>Lua</li>
           <li>Corona SDK</li>
         </ul>
-  			<p><b>Kokeile Herokussa!</b><a href=""><i class="fa fa-github" style="font-size:36px"></i></a></p>
-  			<p>Kuva</p>
+  			<p><a href=""><i class="fa fa-github" style="font-size:36px"></i></a></p>
+        <img src="images/coronagame.png" style="max-height: 100%; max-width: 100%;"/>
   		</div>
   	</div>
   </div>
-	<div class="row"> <!-- Who? Esittely -->
-		<div class="offset-by-one ten columns">
-			<h2>WHO?</h2>
 
-			<p style="width: 50%">
-				I'm 23 years old and currently studying the second year of Business
-				and Information Technology, Bachelor's degree at Häme University of Applied
-				Sciences(HAMK). Before I started my studies at HAMK I had barely written a
-				line of code. Soon after my first few programming courses I found myself extremely
-				interested in programming and knew it's what I wanted to do after I graduate.
 
-				I'm most familiar with object-oriented programming(with C#, Java, Scala) and I am
-				very interested in any full stack and back-end developer opportunities.
-				<br><br>
-				Kerro vielä tarkemmin taustasta(aiemmat opinnot) ja muista mielenkiintoista.
-			</p>
-
-			<p>pärstä kuva(SVGkuva&animaatio, "rikkinäinen kuva")</p>
-
-		</div>
-	</div>
-
-	<div class="row"> <!-- Contact -->
-		<div class="six columns">
-			<h2>CONTACT</h2>
-			<p>
-			You can contact me at: joni.a.koivula@gmail.com
-			</p>
-    </div>
-    <div class="six columns">
-			<h2>LINKS</h2>
-      <ul>
-        <li style="display: inline;"><a href="https://fi.linkedin.com/in/joni-koivula-456a2a113"><i class="fa fa-linkedin-square" style="font-size:36px"></i></a></li>
-        <li style="display: inline;"><a href="https://github.com/jkoivula"><i class="fa fa-github" style="font-size:36px"></i></a></li>
-  		</ul>
-		</div>
-	</div>
-
-	<footer style="border: 2px solid plum; text-align: center;">MINÄ TEIN.</footer>
+	<footer style="border: 2px solid plum; text-align: center;">&copy Website created and designed by Joni Koivula.</footer>
   </div>
   </body>
 </html>
