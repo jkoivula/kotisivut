@@ -23,14 +23,18 @@ font-size: 28px;
 margin-top: 1.5%;
 padding: 0 20px 13px;
 /*border-top: 3px solid paleturquoise;*/
-/*border-left: 1px solid orangered;*/
+/*border-left: 1px solid cadetblue;*/
 border: 1px solid paleturquoise;
+border-right-width: 5px;
+border-top-width: 5px;
+border-top-color: darkcyan;
 }
 .row div h2 {
-color: orangered;
+color: cadetblue;
 padding-left: 14px;
-border-left: 4px solid springgreen;
-margin-top: -3px;
+border-left: 16px solid mediumspringgreen;
+padding-top: 6px;
+margin-top: -5px;
 }
 .tekniikat {
 display: inline-block;
@@ -40,7 +44,7 @@ display: inline;
 }
 .tekniikat_ul li {
 display: inline;
-background-color: springgreen;
+background-color: mediumspringgreen;
 padding: 3px 17px;
 margin: 0 2px;
 font-family: 'Comfortaa', sans-serif;
