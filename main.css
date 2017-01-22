@@ -7,9 +7,6 @@ margin-top: 12px;
 h1, h2 {
 font-family: 'Comfortaa', sans-serif;
 }
-p {
-margin-bottom: 1rem;
-}
 body {
 background-color: #ffcd3e;
 /*afeeee #6be2be 3edcac ff9521  ffcd3e*/
@@ -77,8 +74,11 @@ border-left: 16px solid mediumspringgreen;
 font-size: 23px;
 font-family: 'Comfortaa', sans-serif;
 font-weight: regular;
+margin-bottom: 0;
 }
-
+.content-box p {
+margin: 1.5rem 0 1rem;
+}
 .content-border {
 border: 2px solid white;
 padding: 0 13px;
