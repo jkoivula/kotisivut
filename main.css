@@ -1,17 +1,44 @@
 * {
 font-family: 'Lato', sans-serif;
 }
+h1 {
+margin-top: 12px;
+}
 h1, h2 {
 font-family: 'Comfortaa', sans-serif;
 }
 p {
 margin-bottom: 1rem;
 }
+body {
+background-color: #ffcd3e;
+/*afeeee #6be2be 3edcac ff9521  ffcd3e*/
+margin: 0 auto;
+}
+#title_nav_container {
+background-color: white;
+}
+#title_nav {
+max-width: 1300px;
+padding-top: 15px;
+margin: 0 auto;
+background-color: white;
+}
 #container {
-margin: 1.5% 3%;
+max-width: 1300px;
+margin: 1.5% auto;
+padding-top: 1%;
+}
+#bgTOP {
+background-color: mediumspringgreen;
+border-bottom: 2px solid white;
+height: 10px;
 }
 .nav {
-margin-top: 8px;
+margin-top: 13px;
+}
+.nav ul {
+display: inline;
 }
 .nav li {
 font-family: 'Comfortaa', sans-serif;
@@ -19,23 +46,44 @@ display: inline;
 margin-right: 30px;
 font-size: 28px;
 }
-.row div {
-margin-top: 1.5%;
+.row {
+margin: 1% 0;
+}
+.content-box {
+margin-top: 0;
 padding: 0 20px 13px;
-/*border-top: 3px solid paleturquoise;*/
-/*border-left: 1px solid cadetblue;*/
-border: 1px solid paleturquoise;
-border-right-width: 13px;
-border-top-width: 5px;
-border-top-color: darkcyan;
+background-color: white;
 }
-.row div h2 {
-color: cadetblue;
+.content-box h2 {
+color: dodgerblue;
 padding-left: 14px;
-border-left: 16px solid mediumspringgreen;
+border-left: 16px solid transparent;
+
+/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffcd3e+17,00fa9a+100 */
+-moz-border-image: -moz-linear-gradient(top,  #ffcd3e 17%, #00fa9a 100%); /* FF3.6-15 */
+-webkit-border-image:  -webkit-linear-gradient(top,  #ffcd3e 17%,#00fa9a 100%); /* Chrome10-25,Safari5.1-6 */
+border-image: linear-gradient(to bottom,  #ffcd3e 17%,#00fa9a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+border-image-slice: 1;
+
 padding-top: 6px;
-margin-top: -5px;
+margin-top: -2px;
+margin-bottom: 0;
 }
+.content-box h3 {
+color: dodgerblue;
+padding-left: 14px;
+padding-top: 5px;
+border-left: 16px solid mediumspringgreen;
+font-size: 23px;
+font-family: 'Comfortaa', sans-serif;
+font-weight: regular;
+}
+
+.content-border {
+border: 2px solid white;
+padding: 0 13px;
+}
+
 .tekniikat {
 display: inline-block;
 }
