@@ -101,3 +101,24 @@ font-weight: bold;
 footer {
 margin-top: 1.5%;
 }
+.content-links {
+margin: 10px 0;
+}
+.content-links li{
+display: table-cell;
+padding-right: 14px;
+vertical-align: middle;
+}
+.mylink {
+display: inline-block;
+text-decoration: none;
+font-family: 'Comfortaa', serif;
+font-weight: bold;
+border: 1px solid dodgerblue;
+color: dodgerblue;
+padding: 5px 17px;
+}
+.mylink:hover {
+border: 1px solid #1485a9;
+color: #1485a9;
+}
