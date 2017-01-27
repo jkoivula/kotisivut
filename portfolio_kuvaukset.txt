@@ -22,6 +22,17 @@ Sovellukseen piti luoda: (etsi vaatimukset, crud yms)
 Vietiin herokuun ja käytettiin postgresql.
 Sovellus on vain suomeksi.
 
+This web application was the final project of Software Development course.
+The web application is a simple member register and it was created using Java
+programming language and Spring MVC framework, specifically Springboot, and PostgreSQL database.
+Requirements for the final project was to implement basic CRUD functionalities to the member register
+application and create a REST interface.
+Finally the web application was imported to Heroku platform, where anyone can view and try the application for themselves.
+<br><br>
+I completed the Software Development course // iltaopintoina muiden päiväopintojen ohella.
+I created this web application by myself.
+Memeber register web application is only available in <b>finnish</b> language.
+
 Mobile Game Programming Fundamentals:
 
 //desc:
@@ -30,4 +41,6 @@ Kurssilla luotiin mobiilipeli Corona SDK IDE*, jonka
 ohjelmointikieli on Lua. kaikki pelin koodi on lua kielellä.
 Kuvaile millainen peli on.
 Minä tein.
+
+/// ENGL:
 
