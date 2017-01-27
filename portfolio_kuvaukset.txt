@@ -1,0 +1,33 @@
+PORTFOLIO:
+Here are the projects I have participated in. Most of these, in fact all of these are final projects of particular courses.
+
+Webkehitys: Web-development
+
+//desc: This website was created as our 
+Web development course final project. The website is for
+a make-believe company called Moon Travels that offers
+trips to different locations around the Solar System.
+<br>
+We build the the website design using web techniques such as HTML5, CSS3 and Bootstrap. We also added some functionality to the navigation bar by using jQuery.
+Using PHP we created the websites multiple language options, functioning 'Make an offer'-form that sends the offers to our MySQL database and an admistrator view for managing made offers.
+<br>
+Moon Travels website was created by Joni Koivula, Pasi Pahkuri and (Aku-Ville Räsänen).
+
+Ohjelmistokehitys: Software development
+
+//desc:
+Kurssin lopputyö on luoda webaplikaatio java kielellä käyttäen
+spring mvc frameworkia.
+Sovellukseen piti luoda: (etsi vaatimukset, crud yms)
+Vietiin herokuun ja käytettiin postgresql.
+Sovellus on vain suomeksi.
+
+Mobile Game Programming Fundamentals:
+
+//desc:
+Peli oli kesäkurssin lopputyö, focus.
+Kurssilla luotiin mobiilipeli Corona SDK IDE*, jonka
+ohjelmointikieli on Lua. kaikki pelin koodi on lua kielellä.
+Kuvaile millainen peli on.
+Minä tein.
+

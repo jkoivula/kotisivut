@@ -8,23 +8,26 @@ h1, h2 {
 font-family: 'Comfortaa', sans-serif;
 }
 body {
-background-color: #ffcd3e;
+background-color: white;
 /*afeeee #6be2be 3edcac ff9521  ffcd3e*/
 margin: 0 auto;
+background-image: url("images/bg1.svg");
+background-repeat: no-repeat;
+background-position: top;
 }
 #title_nav_container {
-background-color: white;
+background-color: #ffcd3e;
 }
 #title_nav {
 max-width: 1300px;
 padding-top: 15px;
 margin: 0 auto;
-background-color: white;
+background-color: #ffcd3e;
 }
 #container {
 max-width: 1300px;
-margin: 1.5% auto;
-padding-top: 1%;
+margin: 0 auto 1.5%;
+padding-top: 2%;
 }
 #bgTOP {
 background-color: mediumspringgreen;
@@ -50,11 +53,13 @@ margin: 1% 0;
 margin-top: 0;
 padding: 0 20px 13px;
 background-color: white;
+border-left: 2px solid #ffcd3e;
+border-right: 2px solid #ffcd3e;
 }
 .content-box h2 {
 color: dodgerblue;
 padding-left: 14px;
-border-left: 16px solid transparent;
+border-left: 6px solid transparent;
 
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffcd3e+17,00fa9a+100 */
 -moz-border-image: -moz-linear-gradient(top,  #ffcd3e 17%, #00fa9a 100%); /* FF3.6-15 */
@@ -63,14 +68,14 @@ border-image: linear-gradient(to bottom,  #ffcd3e 17%,#00fa9a 100%); /* W3C, IE1
 border-image-slice: 1;
 
 padding-top: 6px;
-margin-top: -2px;
+margin-top: 0;
 margin-bottom: 0;
 }
 .content-box h3 {
 color: dodgerblue;
 padding-left: 14px;
 padding-top: 5px;
-border-left: 16px solid mediumspringgreen;
+border-left: 6px solid mediumspringgreen;
 font-size: 23px;
 font-family: 'Comfortaa', sans-serif;
 font-weight: regular;
@@ -80,7 +85,7 @@ margin-bottom: 0;
 margin: 1.5rem 0 1rem;
 }
 .content-border {
-border: 2px solid white;
+border: 2px solid #ffcd3e;
 padding: 0 13px;
 }
 
