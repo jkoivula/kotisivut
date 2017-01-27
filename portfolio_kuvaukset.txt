@@ -43,4 +43,15 @@ Kuvaile millainen peli on.
 Minä tein.
 
 /// ENGL:
+This project was the main focus of a Mobile Game Programming Fundamentals summer course.
+During the summer course we needed to create a simple mobile game of any genre, using Corona SDK framework.
+The mobile game was programmed completely with Lua.
+
+My game is an endless runner. Goal of the game is to platform the character across the level successfully by
+controlling the jumping function. Game levels are randomly generated, making the exprience different everytime.
+The game randomly generates how many platforms are on the stage, how wide and high they are (this is done for each idividual platform)
+ and how far apart from each other they are.
+<br><br>
+I created this mobile game by myself.
+
 
