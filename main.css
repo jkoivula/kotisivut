@@ -29,13 +29,9 @@ max-width: 1300px;
 margin: 0 auto 1.5%;
 padding-top: 2%;
 }
-#bgTOP {
-background-color: mediumspringgreen;
-border-bottom: 2px solid white;
-height: 10px;
-}
 .nav {
 margin-top: 13px;
+margin-bottom: 1.5rem;
 }
 .nav ul {
 display: inline;
@@ -45,6 +41,7 @@ font-family: 'Comfortaa', sans-serif;
 display: inline;
 margin-right: 30px;
 font-size: 28px;
+float: right;
 }
 .row {
 margin: 1% 0;
