@@ -20,28 +20,36 @@
 
   </head>
   <body>
-    <div id="title_nav_container">
-      <div id="title_nav" class="row"> <!-- Otsikko ja navigointi -->
-        <div class="offset-by-one ten columns nav">
-        <h1>JONI KOIVULA</h1>
 
-        <ul class="nav-links">
-          <li><a href="https://fi.linkedin.com/in/joni-koivula-456a2a113" target="_blank"><i class="fa fa-linkedin-square" style="font-size:48px;"></i></a></li>
-          <li><a href="https://github.com/jkoivula" target="_blank"><i class="fa fa-github" style="font-size:48px;"></i></a></li>
+
+    <div id="container" >
+
+    <div class="mybox nav">
+      <div class="infobox">
+      <h1>JONI KOIVULA</h1>
+      <ul class="nav-links">
+            <li><a href="https://fi.linkedin.com/in/joni-koivula-456a2a113" target="_blank"><i class="fa fa-linkedin-square"></i></a></li>
+            <li><a href="https://github.com/jkoivula" target="_blank"><i class="fa fa-github"></i></a></li>
         </ul>
-        </div>
+      </div>
+
+      <div class="infobox">
+      <h2>CONTACT</h2>
+      <h3>You can contact me at: joni.a.koivula@gmail.com </h3>
+      </div>
+
+      <div class="infobox">
+      <h2>PORTFOLIO</h2>
+      <p>Here are the projects I have participated in.
+        Most of these are final projects of particular courses.</p>
       </div>
     </div>
 
-  <div id="container" >
-
-  <div class="row"> <!-- Who? Esittely -->
-		<div class="eight columns content-border"> <!-- BORDER -->
-      <div class="content-box">
-      <h2>WHO?</h2>
+      <div class="mybox">
+      <h2><img class="subtitle_icon" src="images/spam.svg"/>WHO?</h2>
 
 			<p style="">
-        <img class="prof-pic" src="images/profilepic.jpg"/>
+        <img class="prof-pic" src="images/profilepi1.jpg"/>
         Hey, my name is Joni Koivula! I'm 23 years old and i'm currently studying
         the second year of Business and Information Technology,
         Bachelor's degree at Häme University of Applied Sciences(HAMK).
@@ -61,30 +69,11 @@
         developer opportunities.
 
 			</p>
-
-      </div> <!-- BORDER -->
 		</div>
 
-		<div class="four columns content-border">
-      <div class="content-box"> <!-- BORDER -->
-        <h2>CONTACT</h2>
-  			<h3>You can contact me at: joni.a.koivula@gmail.com </h3>
-      </div>
-		</div>
-	</div>
-
-  <div class="row">
-    <div class="offset-by-two eight columns portfolio-desc">
-    <h2>PORTFOLIO</h2>
-    <p>Here are the projects I have participated in.
-      Most of these, in fact all of these are final projects of particular courses.</p>
-    </div>
-  </div>
 
 
-	<div class="row"> <!-- Projektit showcase -->
-		<div class="six columns content-border"> <!-- BORDER -->
-      <div class="content-box">
+      <div class="mybox" >
 			<h2>Website</h2>
       <h3>05.2016</h3>
 			<p>
@@ -107,17 +96,14 @@
         <li>Bootstrap</li>
         <li>jQuery</li>
       </ul>
-      <!-- http://ao.hamk.fi/~pasi1520/kuumatkat/ -->
       <ul class="content-links">
 			  <li><a href="http://ao.hamk.fi/~pasi1520/kuumatkat/" target="_blank" class="mylink">VISIT WEBSITE</a></li>
       </ul>
 
       <img src="images/kuumatkat_homepage.PNG"/>
-      </div> <!-- BORDER -->
     </div>
 
-    <div class="six columns content-border"> <!-- BORDER -->
-      <div class="content-box">
+    <div class="mybox">
 			<h2>Spring MVC Web Application</h2>
       <h3>06.2016</h3>
 		<p>
@@ -146,13 +132,9 @@
       </ul>
 
 			<img src="images/jasenrekisteri_homepage.PNG"/>
-      </div> <!-- BORDER -->
     </div>
-  </div> <!-- ROW -->
 
-  <div class="row">
-    <div class="six columns content-border"> <!-- BORDER -->
-      <div class="content-box">
+    <div class="mybox">
 			<h2>Corona SDK Mobile Game</h2>
       <h3>06.2016</h3>
 			<p>
@@ -161,8 +143,8 @@
 				The mobile game was programmed completely with Lua.
 				<br><br>
 				My game is an endless runner. Goal of the game is to platform the character across the level successfully by
-				controlling the jumping function. Game levels are randomly generated, making the exprience different everytime.
-				The game randomly generates how many platforms are on the level, how wide and high they are (this is done for each idividual platform)
+				controlling the jumping function. Game levels are randomly generated, making the experience different everytime.
+				The game randomly generates how many platforms are on the level, how wide and high they are (this is done for each individual platform)
 				 and how far apart from each other they are.<br>
 				I created the graphical assets using Inkscape.
 				<br><br>
@@ -179,11 +161,43 @@
       </ul>
 
       <img src="images/coronagame.png"/>
-      </div> <!-- BORDER -->
     </div>
-	</div> <!-- ROW -->
 
-	<footer>Website created and designed by &copy Joni Koivula</footer>
+    <div class="mybox">
+			<h2>Node.js & Socket.io Web Application</h2>
+      <h3>02.2017~</h3>
+  		<p>
+        This web application is the current result of the curiosity of my friend and I to familiarize with Node.js and Socket.io.
+        Also, we both wanted to sharpen our skills in JavaScript.<br><br>
+        The application is still very much a work in progress idea wise but we've playing around with the
+        functionalities Socket.io offers to make a simple chat application.<br><br>
+        Users can enter a chatroom and type messages which are displayed in a HTML5 canvas using P5 library.
+        The application keeps track on current users and color statistics. In this application users can choose a messaging color
+        and the color with the most messages determines the color theme for the application.
+  			<br><br>
+  			This application is being developed by Mindi Laihonen and Joni Koivula.
+
+  		</p>
+	    <p class="tekniikat"><b>Techniques: </b></p>
+      <ul class="tekniikat_ul">
+        <li>JavaScript</li>
+        <li>Socket.io</li>
+        <li>Node.js</li>
+        <li>P5</li>
+      </ul>
+
+      <ul class="content-links">
+			  <li><a href="https://pacific-ravine-22488.herokuapp.com/" target="_blank" class="mylink">TRY APPLICATION</a></li>
+        <li><a href="https://github.com/jkoivula/node-js-projekti" target="_blank"><i class="fa fa-github" style="font-size:40px"></i></a></li>
+      </ul>
+
+			<img src="images/nodejsproject.png"/>
+    </div>
   </div>
+
+
+  <footer>Website created and designed by &copy Joni Koivula</footer>
+
+
   </body>
 </html>

@@ -1,11 +1,16 @@
 * {
+  box-sizing: border-box;
 font-family: 'Roboto', sans-serif;
 }
 h1, h2, h3, footer {
 font-family: 'Roboto', sans-serif;
 font-weight: 300;
 }
+h2 {
+
+}
 h1 {
+font-size: 60px;
 margin-top: 7px;
 font-weight: 100;
 margin-bottom: 0;
@@ -13,9 +18,9 @@ color: white;
 }
 body {
 background-color: white;
-/*afeeee #6be2be 3edcac ff9521  ffcd3e*/
+/*afeeee #6be2be 3edcac ff9521  #ffcd3e*/
 margin: 0 auto;
-background-image: url("images/bg5.svg");
+background-image: url("images/bag5.svg");
 background-repeat: no-repeat;
 background-position: top;
 }
@@ -23,25 +28,52 @@ img {
 max-height: 100%;
 max-width: 100%;
 }
-#title_nav_container {
-background-color: #ada8d0;
-/*#ada8d0  #ada8d0*/
-}
-#title_nav {
-max-width: 1300px;
-padding-top: 0;
-margin: 0 auto;
-background-color: #ada8d0;
-}
+
+/* NEW NEW NEW */
+
+
+
+
 #container {
-max-width: 1300px;
-margin: 0 auto 1.5%;
-padding-top: 2%;
+  margin: 0 auto;
+  max-width: 1310px;
 }
-.nav h1 {
-display: inline-block;
-margin-top: 7px;
+
+.mybox {
+  display: inline-block;
+  border: 1px solid #ada8d0;
+  max-width: 45%;
+  vertical-align: top;
+  margin: 1% 2%;
 }
+
+.mybox:nth-child(odd) {
+  clear: left;
+}
+
+.infobox {
+  display: inline-block;
+  padding: 0 15px 8px;
+  border: 1px solid #ada8d0;
+  float: right;
+  margin-bottom: 35px;
+  background-color: white;
+}
+.infobox:first-child {
+  background-color:  #ada8d0;
+}
+.infobox:last-child {
+  margin-bottom: 0;
+}
+
+
+.subtitle_icon {
+  vertical-align: bottom;
+  padding-right: 8px;
+}
+
+/* ******* */
+
 .nav-links {
 margin-top: 13px;
 margin-bottom: 0;
@@ -54,42 +86,48 @@ font-family: 'Comfortaa', sans-serif;
 display: inline;
 margin-top: 15px;
 margin-right: 30px;
-font-size: 28px;
-float: right;
+font-size: 40px;
 }
 .nav .fa {
 color: white;
+font-size: 48px;
 }
 .nav .fa:hover {
 color: dodgerblue;
 }
-.row {
-margin: 1% 0;
-}
-.content-box {
-margin-top: 0;
-padding: 0 20px 13px;
+
+.mybox {
+padding: 0 15px 35px;
 background-color: white;
-border-left: 2px solid #ada8d0;
-border-right: 2px solid #ada8d0;
-background-color: white;
+/*border: 2px solid #ada8d0;*/
+
+box-shadow: 1px 1px 5px #a3d1fd;
 }
-.content-box h2 {
+.mybox:first-child {
+  padding: 0;
+  border: none;
+  box-shadow: none;
+}
+.mybox h2 {
 color: dodgerblue;
-padding-left: 14px;
-border-left: 6px solid transparent;
+
+/*border-left: 6px solid mediumspringgreen;*/
 
 /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#ffcd3e+17,00fa9a+100 */
--moz-border-image: -moz-linear-gradient(top,  #ffcd3e 17%, #00fa9a 100%); /* FF3.6-15 */
--webkit-border-image:  -webkit-linear-gradient(top,  #ffcd3e 17%,#00fa9a 100%); /* Chrome10-25,Safari5.1-6 */
-border-image: linear-gradient(to bottom,  #ada8d0 17%,#00fa9a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-border-image-slice: 1;
+/*-moz-border-image: -moz-linear-gradient(top,  #ffcd3e 17%, #00fa9a 100%); /* FF3.6-15 */
+/*//-webkit-border-image:  -webkit-linear-gradient(top,  #ffcd3e 17%,#00fa9a 100%); /* Chrome10-25,Safari5.1-6 */
+/*border-image: linear-gradient(to bottom,  #ada8d0 17%,#00fa9a 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+/*border-image-slice: 1;*/
+
+border-top: none;
+border-right: none;
+border-bottom: none;
 
 padding-top: 6px;
 margin-top: 0;
 margin-bottom: 0;
 }
-.content-box h3 {
+.mybox h3 {
 color: dodgerblue;
 padding-left: 14px;
 padding-top: 5px;
@@ -98,25 +136,10 @@ font-size: 23px;
 font-weight: regular;
 margin-bottom: 0;
 }
-.content-box p {
+.mybox p {
 margin: 1.5rem 0 1rem;
 }
-.content-border {
-border: 2px solid #ada8d0;
-padding: 0 13px;
-}
-.portfolio-desc {
-padding-top: 45px;
-padding-bottom: 25px;
-}
-.portfolio-desc h2 {
-display: inline-block;
-}
-.portfolio-desc p {
-display: inline-block;
-max-width: 65%;
-float: right;
-}
+
 .tekniikat {
 display: inline-block;
 }
@@ -124,15 +147,15 @@ display: inline-block;
 display: inline;
 }
 .tekniikat_ul li {
-display: inline;
+display: inline-block;
 background-color: mediumspringgreen;
-padding: 3px 17px;
-margin: 0 2px;
+padding: 1px 17px;
+margin: 0 2px 6px;
 font-family: 'Roboto', sans-serif;
 
 }
 footer {
-margin-top: 1.5%;
+margin: 1.5% 0;
 text-align: center;
 }
 .content-links {
@@ -160,72 +183,45 @@ color: #1485a9;
 display: inline-block;
 float: right;
 margin: 0 0 15px 15px;
-border: 2px solid #ada8d0;
+box-shadow: 1px 1px 12px #888888;
 width: 200px;
 }
 
+
+
 /* MOBIILINÄKYMÄ */
 @media screen and (max-width: 1030px){
-.four.columns h3 {
-font-size: 18px;
+.mybox h3 {
+font-size: 23px;
 }
 }
 @media screen and (max-width: 860px){
-.columns {
-width: 100%;
+.mybox {
+min-width: 100%;
 margin: 1.5% 0;
 }
-.ten.columns {
-width: 91.333334%;
-}
-.eight.columns {
-width: 100%;
-}
-.eight.columns.portfolio-desc {
-width: 100%;
-margin: 1.5% auto;
-}
-.offset-by-two.columns {
-margin-left: 0;
-}
-.four.columns {
-width: 100%;
-}
-.six.columns {
-width: 100%;
-}
-.offset-by-one.columns {
-margin-left: 8.66666666667%;
-}
-.portfolio-desc {
-text-align: center;
-padding-top: 20px;
-padding-bottom: 10px;
-}
-.portfolio-desc h2 {
-display: block;
-}
-.portfolio-desc p {
-display: block;
-max-width: 100%;
-margin: 20px;
-float: none;
-}
-} /**/
 
 @media (max-width: 550px) {
 .nav h1 {
 margin-top: 15px;
 margin-left: 25px;
 }
-.ten.columns {
-width: 100%;
-margin: 0 auto;
-}
-.offset-by-one.columns {
-margin-left: 0;
-}
+
 .prof-pic {
 width: 150px;
+}
+}
+@media (max-width: 420px) {
+.nav h1 {
+margin-left: 10px;
+}
+.nav-links {
+margin-right: 15px;
+}
+.nav-links li {
+margin-right: 15px;
+}
+.nav .fa {
+font-size: 30px;
 }
 }
