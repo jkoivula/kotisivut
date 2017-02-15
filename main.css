@@ -7,9 +7,11 @@ font-family: 'Roboto', sans-serif;
 font-weight: 300;
 }
 h2 {
-
+  letter-spacing: 4px;
+  font-weight: 400;
 }
 h1 {
+  font-family: "Roboto", sans-serif;
 font-size: 60px;
 margin-top: 7px;
 font-weight: 100;
@@ -20,7 +22,7 @@ body {
 background-color: white;
 /*afeeee #6be2be 3edcac ff9521  #ffcd3e*/
 margin: 0 auto;
-background-image: url("images/bag5.svg");
+/* background-image: url("images/bag5.svg");*/
 background-repeat: no-repeat;
 background-position: top;
 }
@@ -35,41 +37,99 @@ max-width: 100%;
 
 
 #container {
-  margin: 0 auto;
+  margin: 1% auto;
   max-width: 1310px;
 }
 
 .mybox {
   display: inline-block;
-  border: 1px solid #ada8d0;
+  border: 1px solid black;
   max-width: 45%;
   vertical-align: top;
-  margin: 1% 2%;
+  margin: 1.5% 2%;
+  padding: 12px 30px 35px;
+  background-color: transparent;
+  /*border: 2px solid #ada8d0;*/
+  background-image: url("images/mybox_bg1.svg");
+  background-repeat: no-repeat;
+  box-shadow: 1px 1px 5px #ada8d0;
 }
 
-.mybox:nth-child(odd) {
+.mybox:nth-child(2+1) {
   clear: left;
+  background-image: url("images/mybox_bg1.svg");
+}
+
+.mybox:nth-child(3n+0) {
+  background-image: url("images/mybox_bg2.svg");
+}
+
+.mybox:first-child {
+  padding: 0;
+  border: none;
+  box-shadow: none;
+  background-image: none;
+}
+
+.profile {
+  background-image: url("images/mybox_bg2.svg");
 }
 
 .infobox {
   display: inline-block;
   padding: 0 15px 8px;
-  border: 1px solid #ada8d0;
+  border: 1px solid black;
   float: right;
   margin-bottom: 35px;
   background-color: white;
+  box-shadow: 1px 1px 5px #ada8d0;
 }
 .infobox:first-child {
+  /*width: 100%;*/
+  border: none;
+  box-shadow: none;
   background-color:  #ada8d0;
 }
 .infobox:last-child {
   margin-bottom: 0;
 }
 
+.infobox p {
+  font-size: 18px;
+  padding: 1rem;
+}
+
+.infobox b {
+  letter-spacing: 3px;
+}
 
 .subtitle_icon {
   vertical-align: bottom;
   padding-right: 8px;
+  height: 60px;
+}
+
+.infobox .subtitle_icon {
+  height: 50px;
+}
+
+.mybox-mobile {
+  display: none;
+  max-width: 45%;
+  vertical-align: top;
+  margin: 1.5% 2%;
+  padding: 12px 30px 10px;
+  background-color: transparent;
+}
+
+.mybox-mobile .infobox {
+  display: inline-block;
+  padding: 0 15px 8px;
+  border: 1px solid black;
+  float: right;
+  margin-bottom: 35px;
+  background-color: white;
+  box-shadow: 1px 1px 5px #ada8d0;
 }
 
 /* ******* */
@@ -96,19 +156,7 @@ font-size: 48px;
 color: dodgerblue;
 }
 
-.mybox {
-padding: 0 15px 35px;
-background-color: white;
-/*border: 2px solid #ada8d0;*/
-
-box-shadow: 1px 1px 5px #a3d1fd;
-}
-.mybox:first-child {
-  padding: 0;
-  border: none;
-  box-shadow: none;
-}
-.mybox h2 {
+.mybox h2, .mybox-mobile h2 {
 color: dodgerblue;
 
 /*border-left: 6px solid mediumspringgreen;*/
@@ -182,8 +230,9 @@ color: #1485a9;
 .prof-pic {
 display: inline-block;
 float: right;
-margin: 0 0 15px 15px;
-box-shadow: 1px 1px 12px #888888;
+margin: 0 0 25px 20px;
+border: 1px solid black;
+box-shadow: 1px 1px 12px lightgrey;
 width: 200px;
 }
 
@@ -196,32 +245,84 @@ font-size: 23px;
 }
 }
 @media screen and (max-width: 860px){
-.mybox {
-min-width: 100%;
-margin: 1.5% 0;
+.mybox, .mybox-mobile {
+  min-width: 100%;
+  margin: 1.5% 0;
 }
 
-@media (max-width: 550px) {
+#container {
+  margin-top: 0;
+}
+
+.mybox:first-child {
+  margin: 0 0 1.5%;
+}
+
+.infobox {
+  min-width: 100%;
+  margin: 0;
+}
+
+.infobox:not(:first-child) {
+  display: none;
+}
+.mybox-mobile {
+  display: inline-block;
+}
+
+.infobox-mobile .subtitle_icon {
+  display: none;
+}
+
 .nav h1 {
-margin-top: 15px;
-margin-left: 25px;
+  display: inline-block;
+}
+
+.nav-links {
+  display: inline-block;
+  float: right;
+}
+
+.nav-links li {
+  margin-right: 18px;
+}
+}
+
+@media (max-width: 600px) {
+h1 {
+  font-size: 45px;
+  margin-top: 15px;
+}
+
+.nav .fa {
+  font-size: 35px;
 }
 
 .prof-pic {
 width: 150px;
 }
+
+.nav-links {
+  margin-top: 10px;
 }
+}
+
 @media (max-width: 420px) {
-.nav h1 {
+h1 {
 margin-left: 10px;
+font-size: 35px;
 }
 .nav-links {
-margin-right: 15px;
+  margin-top: 1px;
+margin-right: 0;
 }
 .nav-links li {
 margin-right: 15px;
 }
 .nav .fa {
 font-size: 30px;
+}
+.infobox {
+  padding: 0 5px;
 }
 }
